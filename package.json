@@ -1,0 +1,20 @@
+{
+  "name": "sandstorm-http-proxy",
+  "description": "an http proxy for handling http requests inside a sandstorm grain",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jparyani/sandstorm-http-proxy.git"
+  },
+  "author": "Jason Paryani <github@jparyani.com>",
+  "main": "./lib/sandstorm-http-proxy.js",
+  "bin": { "sandstorm-http-proxy": "./lib/sandstorm-http-proxy.js" },
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": ["node >=0.10.0"],
+  "dependencies": {
+    "capnp": "0.1.7",
+    "es6-promise": "1.0.0"
+  }
+}
