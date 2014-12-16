@@ -14,7 +14,7 @@
   },
   "engines": ["node >=0.10.0"],
   "dependencies": {
-    "capnp": "0.1.7",
+    "capnp": "0.1.11",
     "es6-promise": "1.0.0"
   }
 }
